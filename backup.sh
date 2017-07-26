@@ -7,7 +7,6 @@ echo "Backup Last database"
 mysqldump --opt -u dbusername --password="dbpassword" dbname > $namafiledb
 echo "done..."
 git add .
-//make this file
 echo "commit to remote git"
 git commit -am "web update"
 git push -u origin master
